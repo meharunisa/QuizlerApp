@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">QuizlerApp</string>
+    <string name="initial_score">Score 0/13</string>
+
+
+    // Quiz Question
+
+    <string name="question_1">The credit of establishing All India Muslim League goes to</string>
+    // options
+
+    <string name="q1option1">Quaid-e-Azam</string>
+    <string name="q1option2">Allama Iqbal</string>
+    <string name="q1option3">Mohsin-ul-Mulk</string>
+    <string name="q1option4">Nawab Waqar-ul-Mulk</string>
+
+
+    // Quiz Question
+
+    <string name="question_2">The All India Muslim League was founded in</string>
+    // options
+
+    <string name="q2option1">March 1906</string>
+    <string name="q2option2">December 1906</string>
+    <string name="q2option3">March 1913</string>
+    <string name="q2option4">December 1913</string>
+
+
+    // Quiz Question
+
+    <string name="question_3">Valentine\'s day is banned in Saudi Arabia.</string>
+    // options
+
+    <string name="q3option1">Valentine\'s day is banned in Saudi Arabia.</string>
+    <string name="q3option2">Valentine\'s day is banned in Saudi Arabia.</string>
+    <string name="q3option3">Valentine\'s day is banned in Saudi Arabia.</string>
+    <string name="q3option4">Valentine\'s day is banned in Saudi Arabia.</string>
+    // answer
+
+    <string name="answer_3">Valentine\'s day is banned in Saudi Arabia.</string>
+
+    // Quiz Question
+
+    <string name="question_4">Valentine\'s day is banned in Saudi Arabia.</string>
+    // options
+
+    <string name="q4option1">Valentine\'s day is banned in Saudi Arabia.</string>
+    <string name="q4option2">Valentine\'s day is banned in Saudi Arabia.</string>
+    <string name="q4option3">Valentine\'s day is banned in Saudi Arabia.</string>
+    <string name="q4option4">Valentine\'s day is banned in Saudi Arabia.</string>
+    // answer
+
+    <string name="answer_4">Valentine\'s day is banned in Saudi Arabia.</string>
+
+</resources>
