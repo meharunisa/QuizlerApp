@@ -3,6 +3,7 @@ package com.assorttech.quizlerapp;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
+import android.graphics.Color;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -149,6 +150,8 @@ public class MainActivity extends AppCompatActivity {
     public void checkAnswer(int userSelection) {
         int correctAnswer = mQuestionBank[mIndex].getAnswer();
         if (userSelection == correctAnswer) {
+
+
             Log.d("Check","got it"+userSelection);
 
             Toast.makeText(MainActivity.this, "You got it!", Toast.LENGTH_LONG).show();
@@ -156,8 +159,11 @@ public class MainActivity extends AppCompatActivity {
 
         } else {
 
-            Toast.makeText(MainActivity.this, "Wrong!", Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity.this, "Wrong! correct answer is"+correctAnswer, Toast.LENGTH_LONG).show();
 
         }
+
     }
+
 }
+
